@@ -17,7 +17,7 @@ A modern, responsive sales dashboard built with Next.js, Tailwind CSS, and Recha
 
 ## Live Demo
 
-[View Live Demo](https://sales-dashboard-demo.vercel.app)
+[View Live Demo](https://sales-dashboard-demo-one.vercel.app)
 
 > Note: The demo uses mock data and doesn't include actual authentication.
 
