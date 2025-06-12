@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sales Dashboard
+
+A modern, responsive sales dashboard built with Next.js, Tailwind CSS, and Recharts. This project demonstrates the implementation of a clean and intuitive user interface for displaying sales data and analytics.
+
+## Features
+
+- 🔐 Login page with modern UI (mock authentication)
+- 📊 Interactive dashboard with real-time data visualization
+- 📈 Monthly revenue chart using Recharts
+- 📋 Top 5 products performance table
+- 💰 Total sales overview with growth indicators
+- 📝 Recent transactions table with status indicators
+- 📱 Fully responsive design
+- ⚡ Server-side rendering (SSR) enabled
+- 🎨 Modern UI with Tailwind CSS
+- 🔍 TypeScript for type safety
+
+## Live Demo
+
+[View Live Demo](https://sales-dashboard-demo.vercel.app)
+
+> Note: The demo uses mock data and doesn't include actual authentication.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework with SSR
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Recharts](https://recharts.org/) - Composable charting library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Vercel](https://vercel.com) - Deployment platform
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.0 or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/momensalama/sales-dashboard-task.git
+cd sales-dashboard-task
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+sales-dashboard/
+├── app/
+│   ├── components/
+│   │   ├── RevenueChart.tsx
+│   │   ├── SalesOverview.tsx
+│   │   ├── TopProducts.tsx
+│   │   └── RecentTransactions.tsx
+│   ├── data/
+│   │   └── mockData.ts
+│   ├── dashboard/
+│   │   └── page.tsx
+│   └── page.tsx
+├── public/
+├── package.json
+└── README.md
+```
 
-## Learn More
+## Features in Detail
 
-To learn more about Next.js, take a look at the following resources:
+### Login Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Clean and modern authentication UI
+- Form validation
+- Loading state handling
+- Responsive design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Dashboard
 
-## Deploy on Vercel
+- Server-side rendered for optimal performance
+- Real-time data visualization
+- Interactive charts with tooltips
+- Responsive tables with sorting capabilities
+- Status indicators for transactions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Recharts Documentation](https://recharts.org/en-US/)
